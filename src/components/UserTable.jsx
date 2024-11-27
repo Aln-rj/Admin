@@ -6,6 +6,7 @@ function UserTable({ users, setUsers }) {
     name: "",
     email: "",
     role: "",
+    
   });
 
   const handleEditClick = (user) => {
@@ -14,6 +15,7 @@ function UserTable({ users, setUsers }) {
       name: user.name,
       email: user.email,
       role: user.role,
+     
     });
   };
 
